@@ -1,0 +1,7 @@
+{ 
+    "role":"admin",
+    "data":{
+        "name":"John",
+        "surname": "ABCD   ,;."
+    } 
+}
