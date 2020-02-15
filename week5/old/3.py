@@ -9,4 +9,5 @@ text = file1.read()
 
 #print(re.match(pattern, text).span())
 print(re.findall(pattern, text))
+#print(re.search(pattern, text).group("price"))
 #print(re.findall(pattern, text))

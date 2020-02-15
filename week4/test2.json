@@ -1,7 +1,1 @@
-{ 
-    "role":"admin",
-    "data":{
-        "name":"John",
-        "surname": "ABCD   ,;."
-    } 
-}
+{ "role":"admin","data":{"name":"John","surname": "ABCD   ,;."} }
