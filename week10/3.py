@@ -18,11 +18,12 @@ objectLocationY = 20
 #pygame.mixer.music.load('./sounds/hit.mp3')
 #pygame.mixer.music.play(-1)
 
-music = pygame.mixer.music.load('./sounds/hit.wav')
+pygame.mixer.init()
+music = pygame.mixer.music.load('./sounds/music.mp3')
 pygame.mixer.music.play(-1)
 
 
-#effect = pygame.mixer.Sound('./sounds/foo.mp3')
+#effect = pygame.mixer.Sound('./sounds/music.mp3')
 #effect.play()
 
 while not done:
